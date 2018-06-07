@@ -3,7 +3,7 @@ now=`date '+%Y%m%d%H%M%S'`
 echo $now
 git add .
 git commit -am "commit $now"
-echo "git push origin master"
+echo "git push origin master "now
 git push origin master
 # echo "push heroku master"
 # git push heroku master
