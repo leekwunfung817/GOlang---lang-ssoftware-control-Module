@@ -1,6 +1,6 @@
 # heroku git:remote -a "$(dirname "pwd")"
 now=`date '+%Y%m%d%H%M%S'`
-echo $now
+echo "commit $now"
 git add .
 git commit -am "commit $now"
 echo "git push origin master "now
